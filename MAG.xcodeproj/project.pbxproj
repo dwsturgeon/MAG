@@ -22,6 +22,9 @@
 		6D7FA9D317FA7CBC00327D44 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7FA9B717FA7CBC00327D44 /* CoreData.framework */; };
 		6D7FA9DB17FA7CBC00327D44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D7FA9D917FA7CBC00327D44 /* InfoPlist.strings */; };
 		6D7FA9DD17FA7CBC00327D44 /* MAGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7FA9DC17FA7CBC00327D44 /* MAGTests.m */; };
+		6D7FA9EB17FA7D1A00327D44 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D7FA9EA17FA7D1A00327D44 /* iPhone.storyboard */; };
+		6D7FA9ED17FA7D4500327D44 /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D7FA9EC17FA7D4500327D44 /* iPad.storyboard */; };
+		6D7FA9F017FA7DF200327D44 /* MAGMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7FA9EF17FA7DF200327D44 /* MAGMasterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		6D7FA9D817FA7CBC00327D44 /* MAGTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MAGTests-Info.plist"; sourceTree = "<group>"; };
 		6D7FA9DA17FA7CBC00327D44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6D7FA9DC17FA7CBC00327D44 /* MAGTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGTests.m; sourceTree = "<group>"; };
+		6D7FA9EA17FA7D1A00327D44 /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
+		6D7FA9EC17FA7D4500327D44 /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
+		6D7FA9EE17FA7DF200327D44 /* MAGMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGMasterViewController.h; sourceTree = "<group>"; };
+		6D7FA9EF17FA7DF200327D44 /* MAGMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGMasterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +122,9 @@
 		6D7FA9B917FA7CBC00327D44 /* MAG */ = {
 			isa = PBXGroup;
 			children = (
-				6D7FA9C217FA7CBC00327D44 /* MAGAppDelegate.h */,
-				6D7FA9C317FA7CBC00327D44 /* MAGAppDelegate.m */,
+				6D7FA9E717FA7CD500327D44 /* Delegate */,
+				6D7FA9E917FA7CF500327D44 /* Storyboards */,
+				6D7FA9E617FA7CCA00327D44 /* Views */,
 				6D7FA9C817FA7CBC00327D44 /* Images.xcassets */,
 				6D7FA9C517FA7CBC00327D44 /* MAG.xcdatamodeld */,
 				6D7FA9BA17FA7CBC00327D44 /* Supporting Files */,
@@ -151,6 +159,33 @@
 				6D7FA9D917FA7CBC00327D44 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D7FA9E617FA7CCA00327D44 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D7FA9EE17FA7DF200327D44 /* MAGMasterViewController.h */,
+				6D7FA9EF17FA7DF200327D44 /* MAGMasterViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6D7FA9E717FA7CD500327D44 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				6D7FA9C217FA7CBC00327D44 /* MAGAppDelegate.h */,
+				6D7FA9C317FA7CBC00327D44 /* MAGAppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		6D7FA9E917FA7CF500327D44 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6D7FA9EA17FA7D1A00327D44 /* iPhone.storyboard */,
+				6D7FA9EC17FA7D4500327D44 /* iPad.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +264,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D7FA9ED17FA7D4500327D44 /* iPad.storyboard in Resources */,
 				6D7FA9BE17FA7CBC00327D44 /* InfoPlist.strings in Resources */,
+				6D7FA9EB17FA7D1A00327D44 /* iPhone.storyboard in Resources */,
 				6D7FA9C917FA7CBC00327D44 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D7FA9F017FA7DF200327D44 /* MAGMasterViewController.m in Sources */,
 				6D7FA9C417FA7CBC00327D44 /* MAGAppDelegate.m in Sources */,
 				6D7FA9C717FA7CBC00327D44 /* MAG.xcdatamodeld in Sources */,
 				6D7FA9C017FA7CBC00327D44 /* main.m in Sources */,
