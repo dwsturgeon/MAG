@@ -50,7 +50,7 @@
 		6D7FA9C217FA7CBC00327D44 /* MAGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGAppDelegate.h; sourceTree = "<group>"; };
 		6D7FA9C317FA7CBC00327D44 /* MAGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGAppDelegate.m; sourceTree = "<group>"; };
 		6D7FA9C617FA7CBC00327D44 /* MAG.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MAG.xcdatamodel; sourceTree = "<group>"; };
-		6D7FA9C817FA7CBC00327D44 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6D7FA9C817FA7CBC00327D44 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MAG/Images.xcassets; sourceTree = "<group>"; };
 		6D7FA9CE17FA7CBC00327D44 /* MAGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D7FA9CF17FA7CBC00327D44 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6D7FA9D817FA7CBC00327D44 /* MAGTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MAGTests-Info.plist"; sourceTree = "<group>"; };
@@ -92,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				6D7FA9B917FA7CBC00327D44 /* MAG */,
+				6D7FA9C817FA7CBC00327D44 /* Images.xcassets */,
 				6D7FA9D617FA7CBC00327D44 /* MAGTests */,
 				6D7FA9B017FA7CBC00327D44 /* Frameworks */,
 				6D7FA9AF17FA7CBC00327D44 /* Products */,
@@ -123,16 +124,15 @@
 			isa = PBXGroup;
 			children = (
 				6D7FA9E717FA7CD500327D44 /* Delegate */,
-				6D7FA9E917FA7CF500327D44 /* Storyboards */,
 				6D7FA9E617FA7CCA00327D44 /* Views */,
-				6D7FA9C817FA7CBC00327D44 /* Images.xcassets */,
-				6D7FA9C517FA7CBC00327D44 /* MAG.xcdatamodeld */,
-				6D7FA9BA17FA7CBC00327D44 /* Supporting Files */,
+				6D7FA9E917FA7CF500327D44 /* Storyboards */,
+				6DCF76E017FDA7FB004C56E3 /* Core_Data */,
+				6D7FA9BA17FA7CBC00327D44 /* Supporting_Files */,
 			);
 			path = MAG;
 			sourceTree = "<group>";
 		};
-		6D7FA9BA17FA7CBC00327D44 /* Supporting Files */ = {
+		6D7FA9BA17FA7CBC00327D44 /* Supporting_Files */ = {
 			isa = PBXGroup;
 			children = (
 				6D7FA9BB17FA7CBC00327D44 /* MAG-Info.plist */,
@@ -140,7 +140,7 @@
 				6D7FA9BF17FA7CBC00327D44 /* main.m */,
 				6D7FA9C117FA7CBC00327D44 /* MAG-Prefix.pch */,
 			);
-			name = "Supporting Files";
+			name = Supporting_Files;
 			sourceTree = "<group>";
 		};
 		6D7FA9D617FA7CBC00327D44 /* MAGTests */ = {
@@ -186,6 +186,14 @@
 				6D7FA9EC17FA7D4500327D44 /* iPad.storyboard */,
 			);
 			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		6DCF76E017FDA7FB004C56E3 /* Core_Data */ = {
+			isa = PBXGroup;
+			children = (
+				6D7FA9C517FA7CBC00327D44 /* MAG.xcdatamodeld */,
+			);
+			name = Core_Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -492,6 +500,7 @@
 				6D7FA9E217FA7CBC00327D44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D7FA9E317FA7CBC00327D44 /* Build configuration list for PBXNativeTarget "MAGTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +509,7 @@
 				6D7FA9E517FA7CBC00327D44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

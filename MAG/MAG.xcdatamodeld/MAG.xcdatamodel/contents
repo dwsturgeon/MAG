@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3396" systemVersion="12F45" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Gun" representedClassName="Gun" syncable="YES">
+        <attribute name="exc" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="fair" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="good" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nib" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="poor" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="vg" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="Manufact" representedClassName="Manufacturer" syncable="YES"/>
+    <elements>
+        <element name="Gun" positionX="-36" positionY="137" width="189" height="163"/>
+        <element name="Manufact" positionX="360" positionY="234" width="128" height="43"/>
+    </elements>
 </model>

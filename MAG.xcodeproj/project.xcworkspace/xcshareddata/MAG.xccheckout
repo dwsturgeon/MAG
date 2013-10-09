@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>766CFBF3-3F62-4D5A-A8C0-F6356EA3AB03</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MAG</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>910735F5-353D-4FD0-8B72-D99D3F422396</key>
+		<string>https://github.com/dwsturgeon/MAG.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MAG.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>910735F5-353D-4FD0-8B72-D99D3F422396</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dwsturgeon/MAG.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>910735F5-353D-4FD0-8B72-D99D3F422396</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>910735F5-353D-4FD0-8B72-D99D3F422396</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MAG</string>
+		</dict>
+	</array>
+</dict>
+</plist>
